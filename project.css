@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.project3{
+    height: 500px;
+    width: 1500px;
+}
+.project4{
+    background-color: black;
+    height: 500px;
+}
+.project5{
+    width: 1000px;
+}
+.project5{
+    animation-name: project5;
+    animation-duration: 10s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+    animation-direction: reverse;
+    position: relative;
+}
+@keyframes project5{
+    from{
+        left: 0;
+    }
+    to{
+        left: 1000px;
+    }
+}
+.project6{
+    width: 1000px;
+}
+.project6{
+    animation-name: project6;
+    animation-duration: 15s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+    animation-direction: inherit;
+    position: relative;
+}
+@keyframes project6{
+    from{
+        left: 0;
+    }
+    to{
+        left: 1000px;
+    }
+}
+.project7{
+    width: 1000px;
+}
+.project7{
+    animation-name: project7;
+    animation-duration: 10s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+    animation-direction: initial;
+    position: relative;
+}
+@keyframes project7{
+    from{
+        left: 0;
+    }
+    to{
+        left: 1000px;
+    }
+}
+.project4 .project5 .project6{
+
+}
+.project8{
+    width: 1000px;
+}
+.project8{
+    animation-name: project8;
+    animation-duration: 12s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+    animation-direction: reverse;
+    position: relative;
+}
+@keyframes project8{
+    from{
+        left: 0;
+    }
+    to{
+        left: 1000px;
+    }    
+}
+
+  
+
+
+
+
